@@ -1,0 +1,186 @@
+h1, h2, h3 {
+    font-family: "Belanosima", Arial, sans-serif;
+}
+
+body, p {
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #EFF5F5;
+    color: #181823;
+}
+
+nav {
+    background-color: #1F8A70;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #EFF5F5;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header {
+    background-image: url("./images/portada_untref.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0 50px;
+    color: #EFF5F5;
+}
+
+section {
+    padding: 50px;
+    border-bottom: 2px solid #1F8A70;
+}
+
+.quienes-somos-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.explanation {
+    flex: 2;
+}
+
+.explanation p {
+    color: #181823;
+}
+
+.elegirnos-content {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.explanation {
+    flex: 2;
+}
+
+.explanation p {
+    color: #181823;
+}
+
+.noticias-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.noticia {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.noticia h3 {
+    color: #00425A;
+}
+
+.noticia p {
+    color: #181823;
+}
+
+h2 {
+    color: #00425A;
+}
+
+footer {
+    background-color: #1F8A70;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #EFF5F5;
+}
+
+.redes-sociales img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.redes-sociales a {
+    color: #EFF5F5;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.nombre-instituto {
+    font-weight: bold;
+    text-align: center;
+}
+
+.contactos {
+    text-align: right;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    margin: 10px;
+}
+
+form button {
+    background-color: #FC7300;
+    color: #EFF5F5;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF994D;
+}
+
+
+
+
+
+
+

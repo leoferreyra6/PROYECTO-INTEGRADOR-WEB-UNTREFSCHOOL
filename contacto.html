@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - UntrefSchool</title>
+    <link rel="icon" type="image/x-icon" href="./icons/untref_logo.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#quienes-somos">Quienes somos</a></li>
+            <li><a href="#elegirnos">¿Por qué elegirnos?</a></li>
+            <li><a href="#propuesta">Propuesta educativa</a></li>
+            <li><a href="#noticias">Últimas noticias</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Formulario de Contacto</h1>
+    </header>
+    
+    <section id="contacto">
+        <form action="https://formsubmit.co/leoferreyra96@hotmail.com" method="POST" />
+        <input type="hidden" name="_captcha" value="false">
+        
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://es-la.facebook.com/" target="_blank" rel="noopener-noreferrer"><img src="./icons/facebook_logo.png" alt= "Facebook"></a>
+            <a href="https://twitter.com/" target="_blank" rel="noopener-noreferrer"><img src="./icons/twitter_logo.png" alt= "Twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener-noreferrer"><img src="./icons/instagram_logo.png" alt= "Instagram"></a>
+        </div>
+        <p class="nombre-instituto">UntrefSchool</p>
+        <div class="contactos">
+            <p>Teléfono: 0810-22-5050</p>
+            <p>info@untrefschool.com</p>
+        </div>
+    </footer>
+</body>
+</html>
